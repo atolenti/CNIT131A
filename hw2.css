@@ -1,0 +1,17 @@
+catalog {
+	background-color: LightGray;
+}
+
+title, author, publisher, pages {
+	display: block;
+}
+
+title {
+	color: red;
+	font-weight: bold;
+}
+
+book:nth-child(even){
+	background-color: lightblue;
+}
+
