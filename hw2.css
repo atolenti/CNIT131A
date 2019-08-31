@@ -11,7 +11,7 @@ title {
 	font-weight: bold;
 }
 
-book:nth-child(even){
+title:nth-child(odd){
 	background-color: lightblue;
 }
 
