@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="hw2.css"?>
+<!--Books are being donated by instructors and publishers-->
+<catalog>
+	<book>
+	  <title>Introduction to HTML</title>
+	  <author>Joseph Gardner</author>
+	  <publisher>Press &#169; </publisher>
+	  <page units="pages">342</page>
+	</book>
+	<book>
+	  <title>Networking Infrastructure</title>
+	  <author>Adam Douglas &#038; Janice Dall</author>
+	  <publisher>Cengage;&#169; </publisher>
+	  <page units="pages">745</page>
+	</book>
+	<book>
+	  <title>Soft Skills in IT</title>
+	  <author>Mark Hunter</author>
+	  <publisher>Bolding Publisher&#169; </publisher>
+	  <page units="pages">894</page>
+	</book>
+	<book>
+	  <title>Network Security</title>
+	  <author>JEnnifer Starter &#038; Yuri Adantov</author>
+	  <publisher>Wrox&#169; </publisher>
+	  <page units="pages">1025</page>
+	</book>
+	<book>
+	  <title>XML &#038; JSON</title>
+	  <author>Stuart Bell</author>
+	  <publisher>Cengage;&#169; </publisher>
+	  <page units="pages">504</page>
+	</book>
+</catalog>
