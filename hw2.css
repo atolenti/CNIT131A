@@ -1,8 +1,9 @@
 catalog {
 	background-color: LightGray;
+	font-family: verdana, sans-serif;
 }
 
-title, author, publisher, pages {
+book, title, author, publisher, pages {
 	display: block;
 }
 
@@ -11,7 +12,7 @@ title {
 	font-weight: bold;
 }
 
-title:nth-child(odd){
+book:nth-child(odd){
 	background-color: lightblue;
 }
 
