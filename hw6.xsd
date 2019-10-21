@@ -10,7 +10,7 @@
 
 <xs:element name="Member">
   <xs:complexType>
-    <xs:sequence>
+    <xs:sequence minOccurs="1">
 
     <xs:element name="Name">
 	    <xs:simpleType>
@@ -20,7 +20,7 @@
 		</xs:simpleType>
   	</xs:element>
 
-	<xs:element name="Age">
+	<xs:element name="Age" default="21">
 		<xs:simpleType>
 			<xs:restriction base="xs:positiveInteger">
 				<xs:minInclusive value="21" />
@@ -33,7 +33,7 @@
 	<xs:element name="Date">
 		<xs:simpleType>
 			<xs:restriction base="xs:date">
-				<xs:pattern value="\d{4}[-]\d{2}[-]\d{2}"></xs:pattern>		
+				<xs:pattern value="\d{4}[-](1[0-2]|0[1-9])[-](0[1-9]|[12]\d|3[01])"></xs:pattern>		
         	</xs:restriction>
 		</xs:simpleType>
   	</xs:element>
