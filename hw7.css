@@ -1,0 +1,20 @@
+
+@namespace e "http://www.gov.org/east";
+
+states {
+	font-family: verdana, sans-serif;
+}
+
+state {
+	display: block;
+}
+
+state {
+	background-color: #D6EAF8;
+}
+
+e|state {
+	background-color: #E8DAEF;
+}
+
+	
