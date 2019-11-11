@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fall 2019 - CNIT-131A - HW8</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  table.GeneratedTable {
+    width: 40%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #a9a9a9;
+    border-style: solid;
+    color: #575758;
+    table-layout : fixed;
+  }
+
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #a9a9a9;
+    border-style: solid;
+    padding: 3px;
+  }
+
+  table.GeneratedTable thead {
+    background-color: #b9e6ff;
+  }
+  </style>
+</head>
+<body>
+	<h3>HW8</h3>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Question</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">1</td>
+      <td>What is the difference between XSLT 1.0 and XSLT 2.0?
+      <br/> 
+        <table class="GeneratedTable">
+          <thead>
+            <tr>
+              <th>XSLT 1.0</th>
+              <th>XSLT 2.0</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>No schema awareness </td>
+              <td>Has schema awareness <br/>
+              (allows checking for valid input, temporary trees, and output documents)
+              </td>
+            </tr>
+            <tr>
+              <td>Limited to 5 data types</td>
+              <td>Offers more flexibility in data types</td>
+            </tr>
+            <tr>
+              <td>Regular expression is not supported</td>
+              <td>Regular expression is supported</td>
+            </tr>
+            <tr>
+              <td>Supports only one result tree output</td>
+              <td>Supports more than one result tree output</td>
+            </tr>
+            <tr>
+              <td>Does not support user-defined functions</td>
+              <td>Supports user-defined functions using xsl:function</td>
+            </tr>
+            <tr>
+              <td>Complex grouping</td>
+              <td>Simple grouping using xsl:for-each-group</td>
+            </tr>
+            <tr>
+             <td></td>
+             <td>Other Enhancements: <br/>
+             Better error handling because there are more error code definitions.</td> 
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td scope="row">2</td>
+      <td>What is the difference between XPath 1.0 and XPath 2.0?
+      <br/> <br/> 
+        <table class="GeneratedTable">
+          <thead>
+            <tr>
+              <th>XPath 1.0</th>
+              <th>XPath 2.0</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Limited to four expression types</td>
+              <td>Offers more flexibility by having more expression types</td>
+            </tr>
+             <tr>
+              <td>Data model is based on node-sets</td>
+              <td>Data Model is based on sequence</td>
+            </tr>
+            <tr>
+              <td>Functions and operators are limited</td>
+              <td>There are new functions and operators available <br/><br/>
+              Examples of new operators: <br/>a. arithmetic operators (+, -, *, div, mod, idiv)<br/>
+              b. Boolean (and, or)<br/><br/>
+              Examples of new function: <br/>a. general string handling (lower-case, upper-case)
+              <br/>b. Regular expression (matches, replaces)</td>
+            </tr>
+          </tbody>
+        </table>
+    </tr>
+    <tr>
+      <td scope="row">3</td>
+      <td><a href="hw8.xquery">hw8.xquery</a>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+</body>
+</html>
